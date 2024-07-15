@@ -1,13 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, VERSION } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: ``,
+  styles: [':host { display: block; min-height: 100vh; padding: 0; margin: 0; }']
 })
 export class AppComponent {
-  title = 'angular-hangman-app';
+  title = `Hangman Game App - Angular ${VERSION.major}`;
 }
