@@ -1,27 +1,35 @@
-# AngularHangmanApp
+# Angular Hangman Game App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+## Angular 18 and Signal Mechanism
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Welcome to the Hangman Game! This project is built using Angular 18 and Signal. The objective of the game is to guess the hidden word by suggesting letters within a certain number of guesses.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Random word generation at the start of each game.
+- Visual representation of the hangman.
+- Maximum of 6 incorrect guesses allowed before the game is over.
+- Responsive and user-friendly interface.
 
-## Build
+## Gameplay
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. The game starts with a random word being selected.
+2. You can guess the word by suggesting letters.
+3. Each incorrect guess will result in a part of the hangman being drawn.
+4. You have a maximum of 6 incorrect guesses. If you exceed this, the game is over, and the man is hanged.
+5. If you guess all the letters correctly before the hangman is fully drawn, you win!
 
-## Running unit tests
+## Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Hangman Game](./game.png)
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular 18**: The main framework used to build the application.
+- **Signal**: Used for state management.
 
-## Further help
+## Contributing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+If you want to contribute to this project, feel free to fork the repository and submit a pull request. Any improvements and suggestions are welcome!
+
